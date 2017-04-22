@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Simple Quiz</title>
+		<link rel="stylesheet" href="css/style.css">
+		
+		<script src="js/app.js"></script>
+	</head>
+	<body>
+		<div id="container">
+			<header>
+				<h1>Simple Quiz using JavaScript</h1>
+				<p>Test your knowledge in <strong>Random Things</strong></p>
+			</header>
+			<section>
+				<div id="results"></div>
+				<form name="quizForm" onsubmit="return submitAnswers()">
+					<h3>1. How many flavors of ice cream does Baskin-Robins have?</h3>
+					<input type="radio" name="q1" value="a" id="q1a">a. 21<br>
+					<input type="radio" name="q1" value="b" id="q1b">b. 33<br>
+					<input type="radio" name="q1" value="c" id="q1c">c. 31<br>
+					<input type="radio" name="q1" value="d" id="q1d">d. I dont eat ice cream<br>
+					
+					<h3>2. Where is the Golden Gate Bridge Located?</h3>
+					<input type="radio" name="q2" value="a" id="q2a">a. San Francisco<br>
+					<input type="radio" name="q2" value="b" id="q2b">b. Portland<br>
+					<input type="radio" name="q2" value="c" id="q2c">c. Seattle<br>
+					<input type="radio" name="q2" value="d" id="q2d">d. Los Angeles<br>
+
+					<h3>3. How many doors are on a sedan?</h3>
+					<input type="radio" name="q3" value="a" id="q3a">a. 2<br>
+					<input type="radio" name="q3" value="b" id="q3b">b. 3<br>
+					<input type="radio" name="q3" value="c" id="q3c">c. 4<br>
+					<input type="radio" name="q3" value="d" id="q3d">d. 5<br>
+
+					<h3>4. Rick and Morty</h3>
+					<input type="radio" name="q4" value="a" id="q4a">a. True<br>
+					<input type="radio" name="q4" value="b" id="q4b">b. False<br>
+
+					<h3>5. Where does Homer Simpson work?</h3>
+					<input type="radio" name="q5" value="a" id="q5a">a. Moe's<br>
+					<input type="radio" name="q5" value="b" id="q5b">b. Bowl-A-Rama<br>
+					<input type="radio" name="q5" value="c" id="q5c">c. Power Plant<br>
+					<input type="radio" name="q5" value="d" id="q5d">d. Home<br>
+					<br><br>
+					<div class="submitButton">
+					<input type="submit" value="Submit Answers">
+					</div>
+				</form>
+			</section>
+			<footer>
+				<p>By Nick Wong</p>
+			</footer>
+		</div>
+	</body>	
+</html>
