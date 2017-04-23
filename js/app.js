@@ -1,5 +1,5 @@
 function submitAnswers(){
-	var total = 5;
+	var total = 6;
 	var score = 0;
 	
 	//Get user input
@@ -8,6 +8,7 @@ function submitAnswers(){
 	var q3 = document.forms["quizForm"]["q3"].value;
 	var q4 = document.forms["quizForm"]["q4"].value;
 	var q5 = document.forms["quizForm"]["q5"].value;
+	var q6 = document.forms["quizForm"]["q6"].value;
 	
 	//Validate question loop	
 	for(i = 1; i <=total; i++){
@@ -18,7 +19,7 @@ function submitAnswers(){
 	};
 	
 	//Set answer array
-	var answers = ["c","a","c","a","c"];
+	var answers = ["c","a","c","a","c","a"];
 	
 	//Check answers
 	for (i = 1; i <=total; i++){
