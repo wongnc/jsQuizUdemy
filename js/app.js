@@ -32,6 +32,6 @@ function submitAnswers(){
 	var result = document.getElementById('results')
 	results.innerHTML = '<h3>You scored <span> '+score+' </span>/ <span>'+total+'</span></h3>';
 	
-	//not submit form to server
+	//not submit form to server but still allow enter
 	return false;
 };
